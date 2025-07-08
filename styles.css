@@ -44,7 +44,7 @@ h2::after {
   background-color: #000;
   height: 22px;
   width: 22px;
-  display: inline-block;
+  /* display: inline-block; */
   margin-right: 10px;
 }
 
@@ -77,7 +77,7 @@ p strong {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 10px;
-  float: right;
+  /* float: right; */
   margin-top: 11px;
 }
 
@@ -124,18 +124,18 @@ button:hover {
 }
 
 img {
-  float: left;
+  /* float: left; */
 }
 
 main {
-  float: left;
+  /* float: left; */
   width: 243px;
   margin-left: 40px;
   margin-top: 25px;
 }
 
 figcaption {
-  float: right;
+  /* float: right; */
   width: 243px;
   margin-left: 40px;
   margin-top: 25px;
