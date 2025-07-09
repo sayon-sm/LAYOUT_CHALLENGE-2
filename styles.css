@@ -16,6 +16,7 @@ article {
 
 #container {
   display: flex;
+  gap: 40px;
 }
 
 main > header {
@@ -51,14 +52,13 @@ h2::after {
 
 .colors {
   display: flex;
+  gap: 10px;
 }
 
 .color {
   background-color: #000;
   height: 22px;
   width: 22px;
-  /* display: inline-block; */
-  margin-right: 10px;
 }
 
 .color-blue {
@@ -136,24 +136,13 @@ button:hover {
   font-size: 30px;
 }
 
-/* img {
-  float: left;
-} */
-
 main {
-  /* float: left; */
-  /* width: 243px; */
-
-  flex: 1 1 0;
-  margin-left: 40px;
+  flex: 1;
   margin-top: 25px;
 }
 
 figcaption {
-  /* float: right; */
-
-  flex: 0 1 auto;
+  flex: 1;
   width: 243px;
-  margin-left: 40px;
   margin-top: 25px;
 }
