@@ -14,6 +14,15 @@ article {
   margin: 50px auto;
 }
 
+#container {
+  display: flex;
+}
+
+main > header {
+  display: flex;
+  justify-content: space-between;
+}
+
 h2,
 h3 {
   text-transform: uppercase;
@@ -38,6 +47,10 @@ h2::after {
   font-weight: bold;
   letter-spacing: 2px;
   padding: 7px 15px;
+}
+
+.colors {
+  display: flex;
 }
 
 .color {
@@ -123,19 +136,23 @@ button:hover {
   font-size: 30px;
 }
 
-img {
-  /* float: left; */
-}
+/* img {
+  float: left;
+} */
 
 main {
   /* float: left; */
-  width: 243px;
+  /* width: 243px; */
+
+  flex: 1 1 0;
   margin-left: 40px;
   margin-top: 25px;
 }
 
 figcaption {
   /* float: right; */
+
+  flex: 0 1 auto;
   width: 243px;
   margin-left: 40px;
   margin-top: 25px;
